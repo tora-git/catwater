@@ -1,0 +1,16 @@
+.water{
+    text-align: right;
+    width: 5em;
+}
+.waterSum{
+    text-align: right;
+    width: 5em;
+    display:block;
+    float: left;
+}
+.waterAllSum{
+    background-color: lightsalmon;
+}
+td{
+    text-align: center;
+}

@@ -4,9 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./water.js"></script>
+    <link href="./water.css" rel="stylesheet">
+    <title>CatWater</title>
 </head>
 <body>
-    TEST
+    <div id="day1Box" class="dayBox">
+        <h3>DAY1</h3>
+        <table>
+            <tr><th></th><th>small</th><th>big</th><th>extra</th><th>sum</th></tr>
+            <tr>
+                <td>Start</td>
+                <td><input type="number" class="water water1St"></td>
+                <td><input type="number" class="water water2St"></td>
+                <td><input type="number" class="water water3St"></td>
+                <td><label class="waterSum waterStSum"></label></td>
+            </tr>
+            <tr>
+                <td>End</td>
+                <td><input type="number" class="water water1En"></td>
+                <td><input type="number" class="water water2En"></td>
+                <td><input type="number" class="water water3En"></td>
+                <td><label class="waterSum waterEnSum"></label></td>
+            </tr>
+            <tr>
+                <td>Result</td>
+                <td><label class="waterSum water1Sum"></label></td>
+                <td><label class="waterSum water2Sum"></label></td>
+                <td><label class="waterSum water3Sum"></label></td>
+                <td><label class="waterSum waterAllSum"></label></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="day2Box" class="dayBox">
+        <h3>DAY2</h3>
+        <table>
+            <tr><th></th><th>small</th><th>big</th><th>extra</th><th>sum</th></tr>
+            <tr>
+                <td>Start</td>
+                <td><input type="number" class="water water1St"></td>
+                <td><input type="number" class="water water2St"></td>
+                <td><input type="number" class="water water3St"></td>
+                <td><label class="waterSum waterStSum"></label></td>
+            </tr>
+            <tr>
+                <td>End</td>
+                <td><input type="number" class="water water1En"></td>
+                <td><input type="number" class="water water2En"></td>
+                <td><input type="number" class="water water3En"></td>
+                <td><label class="waterSum waterEnSum"></label></td>
+            </tr>
+            <tr>
+                <td>Result</td>
+                <td><label class="waterSum water1Sum"></label></td>
+                <td><label class="waterSum water2Sum"></label></td>
+                <td><label class="waterSum water3Sum"></label></td>
+                <td><label class="waterSum waterAllSum"></label></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="buttonBox">
+        <button id="sumBtn">Sum</button>
+        <button id="nextBtn">Next</button>
+    </div>
 </body>
 </html>
